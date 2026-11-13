@@ -105,7 +105,24 @@ internal val lunarisBarGestureActions =
         "back",
         "recents",
         "lock",
+        "power_menu",
         "screenshot",
+        "split_screen",
+        "camera",
+        "assistant",
+        "calculator",
+        "volume_up",
+        "volume_down",
+        "volume_panel",
+        "mute",
+        "ringer_mode",
+        "screen_record",
+        "auto_rotate",
+        "auto_brightness",
+        "dnd_toggle",
+        "dark_theme",
+        "airplane_mode",
+        "clear_notifications",
         "settings",
         "brightness_settings",
         "volume_settings",
@@ -113,8 +130,6 @@ internal val lunarisBarGestureActions =
         "bluetooth_settings",
         "internet_settings",
         "location_settings",
-        "mute",
-        "auto_brightness",
     )
 
 internal val lunarisBarAppearanceOptions =
@@ -181,6 +196,8 @@ internal val lunarisBarAppearanceOptions =
         ),
         LunarisBarOption("companion", default = 1),
         LunarisBarOption("always_visible"),
+        LunarisBarOption("always_show_lockscreen", default = 1),
+        LunarisBarOption("idle_style", "choice", default = 1, choices = listOf("minimal", "clock_battery", "logo")),
     )
 
 internal val lunarisBarMotionOptions =
@@ -240,6 +257,7 @@ internal val lunarisBarFeatureKeys =
     listOf(
         "battery",
         "unlock",
+        "face_unlock",
         "bluetooth",
         "calls",
         "notifications",

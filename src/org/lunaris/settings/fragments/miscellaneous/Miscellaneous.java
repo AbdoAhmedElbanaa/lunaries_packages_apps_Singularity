@@ -34,6 +34,7 @@ import com.android.settingslib.search.SearchIndexable;
 
 import org.lunaris.settings.fragments.miscellaneous.SensorBlock;
 import org.lunaris.settings.preferences.GlobalSettingPrimarySwitchPreference;
+import org.lunaris.settings.preferences.SecureSettingPrimarySwitchPreference;
 
 import java.util.List;
 
@@ -82,6 +83,10 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
         GlobalSettingPrimarySwitchPreference sensorBlock = findPreference("sensor_block");
         if (sensorBlock != null) {
             sensorBlock.loadValue();
+        }
+        SecureSettingPrimarySwitchPreference glassBars = findPreference("penguin_glass_tab_bars");
+        if (glassBars != null) {
+            glassBars.loadValue();
         }
     }
 

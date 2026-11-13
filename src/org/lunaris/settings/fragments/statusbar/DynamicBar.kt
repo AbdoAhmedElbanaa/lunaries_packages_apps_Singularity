@@ -48,6 +48,7 @@ class DynamicBar : SettingsPreferenceFragment() {
         "sports",
         "app_switch",
         "biometric_unlock",
+        "face_unlock",
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {

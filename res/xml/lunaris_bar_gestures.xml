@@ -17,9 +17,23 @@
         android:persistent="false" />
 
     <Preference
+        android:key="gesture_triple_tap"
+        android:title="@string/lunaris_bar_gesture_triple_tap"
+        android:persistent="false" />
+
+    <Preference
         android:key="gesture_long_press"
         android:title="@string/lunaris_bar_gesture_long_press"
         android:persistent="false" />
+
+    <org.lunaris.settings.preferences.LunarisBarSeekBarPreference
+        android:key="long_press_duration"
+        android:title="@string/lunaris_bar_long_press_duration"
+        android:persistent="false"
+        android:defaultValue="400"
+        settings:min="200"
+        android:max="800"
+        settings:interval="25" />
 
     <Preference
         android:key="gesture_swipe_left"

@@ -204,6 +204,17 @@
             android:title="@string/lunaris_bar_always_visible"
             android:persistent="false" />
 
+        <SwitchPreferenceCompat
+            android:key="always_show_lockscreen"
+            android:title="@string/lunaris_bar_always_show_lockscreen"
+            android:summary="@string/lunaris_bar_always_show_lockscreen_summary"
+            android:persistent="false" />
+
+        <ListPreference
+            android:key="idle_style"
+            android:title="@string/lunaris_bar_idle_style"
+            android:persistent="false" />
+
         <org.lunaris.settings.preferences.LunarisBarSeekBarPreference
             android:key="collapsed_opacity"
             android:title="@string/lunaris_bar_collapsed_opacity"

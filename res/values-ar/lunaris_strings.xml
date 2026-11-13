@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dynamic_bar_event_face_unlock">فتح القفل بالوجه</string>
+    <string name="dynamic_bar_event_face_unlock_summary">إظهار كبسولة عند التعرف على الوجه وحالة فتح القفل</string>
+
+    <!-- Liquid Glass Bottom Bars -->
+    <string name="penguin_glass_tab_bars_title">أشرطة التنقل الزجاجية السائلة</string>
+    <string name="penguin_glass_tab_bars_summary">أشرطة تنقل سفلية زجاجية شفافة وعائمة بنمط iOS في التطبيقات المدعومة</string>
+    <string name="liquid_glass_tab_bars_desc">تحويل أشرطة التنقل السفلية القياسية إلى كبسولات زجاجية شفافة عائمة مع حركة زنبركية مرنة وتحديد تفاعلي. يمكن أيضًا تفعيل تمرير المحتوى خلف الشريط.</string>
+    <string name="liquid_glass_apps_title">تخصيص التطبيقات</string>
+    <string name="liquid_glass_apps_summary">تخصيص مظهر وسلوك الشريط لكل تطبيق</string>
+    <string name="liquid_glass_mode_off">إيقاف</string>
+    <string name="liquid_glass_mode_glass">زجاجي</string>
+    <string name="liquid_glass_mode_float">عائم وممتد</string>
+    <string name="liquid_glass_filter_all">جميع التطبيقات</string>
+    <string name="liquid_glass_filter_seen">تم رصد شريط سفلي</string>
+    <string name="liquid_glass_tab_bars_note">ملاحظة: يجب إعادة تشغيل أو إعادة فتح التطبيقات لتطبيق التغييرات.</string>
+    <string name="liquid_glass_seen_badge">تم الرصد</string>
+    <string name="liquid_glass_empty_apps">لم يتم العثور على تطبيقات</string>
+</resources>

@@ -53,6 +53,7 @@ class DynamicIslandSettings : LunarisBarPreferenceFragment() {
             )
             "media" -> lunarisBarMediaOptions
             "features" -> lunarisBarFeatureOptions
+            "gestures" -> listOf(LunarisBarOption("long_press_duration", "slider", 400, 200, 800))
             "main" -> listOf(LunarisBarOption("status_bar_show_dynamic_island", system = true))
             else -> emptyList()
         }
@@ -148,11 +149,12 @@ class DynamicIslandSettings : LunarisBarPreferenceFragment() {
     private fun bindGestures() {
         for ((key, fallback) in listOf(
             "gesture_tap" to "expand", "gesture_double_tap" to "none",
+            "gesture_triple_tap" to "none",
             "gesture_long_press" to "open_app", "gesture_swipe_left" to "next_card",
             "gesture_swipe_right" to "previous_card", "gesture_swipe_up" to "expand",
             "gesture_swipe_down" to "notifications",
         )) {
-            val preference = requireNotNull(findPreference<Preference>(key))
+            val preference = findPreference<Preference>(key) ?: continue
             val action = editor.config.text(key, fallback)
             val cards = editor.config.cards.filter { it.isEnabled }
             preference.summary = cards.firstOrNull { "card:${it.id}" == action }?.title ?: actionLabel(action)

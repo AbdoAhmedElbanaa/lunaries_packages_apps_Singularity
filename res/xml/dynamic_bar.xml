@@ -189,6 +189,13 @@
             android:summary="@string/dynamic_bar_event_biometric_summary"
             android:icon="@drawable/ic_fingerprint"
             android:defaultValue="true" />
+
+        <SwitchPreferenceCompat
+            android:key="event_face_unlock"
+            android:title="@string/dynamic_bar_event_face_unlock"
+            android:summary="@string/dynamic_bar_event_face_unlock_summary"
+            android:icon="@drawable/ic_face"
+            android:defaultValue="true" />
     </PreferenceCategory>
 
     <PreferenceCategory

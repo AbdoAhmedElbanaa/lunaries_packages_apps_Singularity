@@ -2696,6 +2696,8 @@
     <string name="dynamic_bar_event_app_switch_summary">Show chip when switching between recent apps</string>
     <string name="dynamic_bar_event_biometric">Biometric unlock</string>
     <string name="dynamic_bar_event_biometric_summary">Show chip on fingerprint or face unlock</string>
+    <string name="dynamic_bar_event_face_unlock">Face unlock</string>
+    <string name="dynamic_bar_event_face_unlock_summary">Show chip on face recognition and unlock status</string>
     <string name="dynamic_bar_guide_title">How to use Dynamic Bar</string>
     <string name="dynamic_bar_guide_chip">Events appear in the status bar showing active events like recording, media playback, and timers</string>
     <string name="dynamic_bar_guide_swipe">When multiple events are active, swipe left or right on the chip to cycle through them</string>
@@ -3110,5 +3112,20 @@
     <string name="network_speed_layout_title">Text layout</string>
     <string name="network_speed_layout_single">Single line (units beside number)</string>
     <string name="network_speed_layout_dual">Dual line (units below number)</string>
+
+    <!-- Liquid Glass Bottom Bars -->
+    <string name="penguin_glass_tab_bars_title">Liquid Glass bottom bars</string>
+    <string name="penguin_glass_tab_bars_summary">iOS-style floating translucent glass bottom navigation bar in supported apps</string>
+    <string name="liquid_glass_tab_bars_desc">Transform standard bottom navigation bars into floating, translucent liquid glass capsules with interactive springs and sliding selection. Content can optionally float behind the bar.</string>
+    <string name="liquid_glass_apps_title">App Configuration</string>
+    <string name="liquid_glass_apps_summary">Customize behavior per application</string>
+    <string name="liquid_glass_mode_off">Off</string>
+    <string name="liquid_glass_mode_glass">Glass</string>
+    <string name="liquid_glass_mode_float">Float</string>
+    <string name="liquid_glass_filter_all">All apps</string>
+    <string name="liquid_glass_filter_seen">Bottom bar detected</string>
+    <string name="liquid_glass_tab_bars_note">Note: Applications must be restarted or reopened to apply bottom bar changes.</string>
+    <string name="liquid_glass_seen_badge">Detected</string>
+    <string name="liquid_glass_empty_apps">No applications found</string>
 
 </resources>
